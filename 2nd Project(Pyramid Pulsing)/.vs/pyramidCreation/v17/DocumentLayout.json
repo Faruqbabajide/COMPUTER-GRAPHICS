@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\babaj\\OneDrive\\Desktop\\200 LEVEL\\200 LEVEL\\Notes\\Computer Graphics\\CG Project\\COMPUTER-GRAPHICS\\2nd Project(Pyramid Pulsing)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54F0123D-68D3-4E80-AD0D-B8B0C3B86C52}|CubeCreation.vcxproj|C:\\Users\\babaj\\OneDrive\\Desktop\\200 LEVEL\\200 LEVEL\\Notes\\Computer Graphics\\CG Project\\COMPUTER-GRAPHICS\\2nd Project(Pyramid Pulsing)\\pyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{54F0123D-68D3-4E80-AD0D-B8B0C3B86C52}|CubeCreation.vcxproj|solutionrelative:pyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pyramid.cpp",
+              "DocumentMoniker": "C:\\Users\\babaj\\OneDrive\\Desktop\\200 LEVEL\\200 LEVEL\\Notes\\Computer Graphics\\CG Project\\COMPUTER-GRAPHICS\\2nd Project(Pyramid Pulsing)\\pyramid.cpp",
+              "RelativeDocumentMoniker": "pyramid.cpp",
+              "ToolTip": "C:\\Users\\babaj\\OneDrive\\Desktop\\200 LEVEL\\200 LEVEL\\Notes\\Computer Graphics\\CG Project\\COMPUTER-GRAPHICS\\2nd Project(Pyramid Pulsing)\\pyramid.cpp",
+              "RelativeToolTip": "pyramid.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T15:05:35.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿  pyramid.cpp
+  pyramidNoOOP.cpp
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\pyramidNoOOP.cpp(59,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\pyramidNoOOP.cpp(59,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\pyramidNoOOP.cpp(59,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\pyramidNoOOP.cpp(59,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Renderer3D.cpp
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(27,68): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(27,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(27,54): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(27,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(34,31): warning C4244: '=': conversion from '_Rep' to 'float', possible loss of data
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(34,31): warning C4244:         with
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(34,31): warning C4244:         [
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(34,31): warning C4244:             _Rep=double
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(34,31): warning C4244:         ]
+C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\Renderer3D.cpp(41,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  CubeCreation.vcxproj -> C:\Users\babaj\OneDrive\Desktop\200 LEVEL\200 LEVEL\Notes\Computer Graphics\CG Project\COMPUTER-GRAPHICS\2nd Project(Pyramid Pulsing)\x64\Debug\PyramidCreation.exe
