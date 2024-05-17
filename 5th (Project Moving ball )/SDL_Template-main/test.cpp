@@ -11,8 +11,6 @@ const int IMAGE_WIDTH = SCREEN_WIDTH + 500;
 
 SDL_Window* gWindow = NULL;
 SDL_Renderer* gRenderer = NULL;
-int speed = 0.1;
-int CameraX = 0;
 int textureWidthDiff = IMAGE_WIDTH - SCREEN_WIDTH;
 
 SDL_Texture* loadTexture(const std::string& path) {
@@ -97,6 +95,16 @@ int main(int argc, char* argv[]) {
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer1(1)(1).png"));
     backgroundTextures.push_back(loadTexture("./Assets/Pixel_Forest/layer1(1).png"));
 
+    if (backgroundTextures[0] == NULL || backgroundTextures[1] == NULL || backgroundTextures[2] == NULL) {
+        printf("Failed to load textures!\n");
+        return -1;
+    }
+
+    // Define ball's position and velocity
+    float ballX = 0.0f;
+    float ballY = 300.0f;
+    float ballVelX = 2.0f;
+    float ballVelY = 2.0f;
 
     // Main loop flag
     bool quit = false;
@@ -113,16 +121,25 @@ int main(int argc, char* argv[]) {
             }
         }
 
+        // Update ball position
+        ballX += ballVelX;
+        ballY += ballVelY;
+
+        // Bounce off edges
+        if (ballX < 0 || ballX + IMAGE_WIDTH * 0.5 > SCREEN_WIDTH) {
+            ballVelX = -ballVelX;
+        }
+        if (ballY < 0 || ballY + SCREEN_HEIGHT * 0.5 > SCREEN_HEIGHT) {
+            ballVelY = -ballVelY;
+        }
+
         // Clear screen
         SDL_RenderClear(gRenderer);
         float scaleFactor = 0.5;
         float scalesFactor = 0.8;
-        //SDL_Rect skyDest = { 0, -400, 800, 810 };
-        //SDL_RenderCopy(gRenderer, backgroundSky, NULL, &skyDest);
+        float scalessFactor = 0.2;
 
-        //SDL_RenderCopy(gRenderer, backgroundFloor, NULL, NULL);
-
-       // Render the first image
+        // Render the first image
         SDL_Rect textureDest0 = { 0, 0, IMAGE_WIDTH * scalesFactor , SCREEN_HEIGHT * scalesFactor };
         SDL_RenderCopy(gRenderer, backgroundTextures[0], nullptr, &textureDest0);
 
@@ -130,19 +147,15 @@ int main(int argc, char* argv[]) {
         SDL_Rect textureDest1 = { 0, 240, IMAGE_WIDTH * scalesFactor , SCREEN_HEIGHT * scalesFactor }; // Example position
         SDL_RenderCopy(gRenderer, backgroundTextures[1], nullptr, &textureDest1);
 
-        // Render the third image
-        SDL_Rect textureDest2 = { 0, 300, IMAGE_WIDTH * scaleFactor, SCREEN_HEIGHT * scaleFactor }; // Example position
+        // Render the moving ball (third image)
+        SDL_Rect textureDest2 = { (int)ballX, (int)ballY, IMAGE_WIDTH * scalessFactor, SCREEN_HEIGHT * scalessFactor }; // Example position
         SDL_RenderCopy(gRenderer, backgroundTextures[2], nullptr, &textureDest2);
-
-        // Render the fifth image
 
         // Update screen
         SDL_RenderPresent(gRenderer);
     }
 
     // Destroy textures
-    //SDL_DestroyTexture(enemyTexture);
-
     for (SDL_Texture* texture : backgroundTextures) {
         SDL_DestroyTexture(texture);
     }
