@@ -142,7 +142,7 @@ int main(int argc, char* argv[]) {
         // Render the first image
         SDL_Rect textureDest0 = { 0, 0, IMAGE_WIDTH * scalesFactor , SCREEN_HEIGHT * scalesFactor };
         SDL_RenderCopy(gRenderer, backgroundTextures[0], nullptr, &textureDest0);
-
+G
         // Render the second image
         SDL_Rect textureDest1 = { 0, 240, IMAGE_WIDTH * scalesFactor , SCREEN_HEIGHT * scalesFactor }; // Example position
         SDL_RenderCopy(gRenderer, backgroundTextures[1], nullptr, &textureDest1);
